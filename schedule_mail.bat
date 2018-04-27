@@ -1,0 +1,2 @@
+REM Schedule can be - MINUTE, HOURLY, DAILY, WEEKLY, ONCE, ONSTART, ONLOGON, ONIDLE, MONTHLY, ONEVENT
+schtasks /create /tn "Worklog Scheduler" /tr C:\Users\tusharw\Desktop\sendmail.bat /sc DAILY /st 19:10:00 /ru System /rl highest

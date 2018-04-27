@@ -1,0 +1,1 @@
+schtasks /delete /tn "Worklog Scheduler" /f
